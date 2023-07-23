@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding:0% 0%;
+}
+.main1{
+    display:flex;
+    background-color: black;
+    height:200px;
+    color:red;
+    /* text-shadow: 2px 2px red; */
+    align-items: end;
+}
+.headings {
+    flex-basis: 700px;
+    text-shadow: 2px 2px red;
+    font-size: 90px;
+    margin-left:40px;
+}
+.main1 a{
+    display:flex;
+    margin-left:120px;
+    margin-right:0%;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: red;
+    font-size: medium;
+    transition:transform 1s;
+    transition-property: all;
+}
+.main1 a:hover{
+    transform: scale(1.2);
+     text-decoration: underline;
+}
+.paral{
+    width:100%;
+    height:440vh;
+    display:flex;
+    flex-flow: column;
+}
+.paral h1,p{
+    background-color: rgba(253, 247, 247, 0.5);
+    font-weight: bolder;
+}
+.akatsuki{
+    background-image:url("akatsuki1.jpg");
+    background-size: contain;
+    height: 900px;
+    animation-name: ak;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-attachment: fixed;
+}
+
+@keyframes ak{
+    30%{
+        background-image: url("akatsuki2.jpg");
+        color:red;
+        /* text-shadow: 2px 2px red; */
+    }
+    60%{
+        background-image: url("akatsuki3.jpg");
+        color:grey;
+        /* text-shadow:2px 2px grey */
+    }
+}
+.uchiha{
+    background-image: url("uchiha1.jpg");
+    background-size: contain;
+    animation-name: u;
+    height: 900px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-attachment: fixed;
+}
+@keyframes u{
+    30%{
+        background-image: url("uchiha2.jpg");
+        color:red;
+        /* text-shadow: 1px red; */
+    }
+    60%{
+        background-image: url("uchiha3.jpg");
+        color:grey;
+        /* text-shadow:1px grey */
+    }
+}
+.demon{
+    background-image: url(kizuki1.jpg);
+    background-size: cover;
+    animation-name: ki;
+    height: 900px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-attachment: fixed;
+}
+@keyframes ki{
+    30%{
+        background-image: url(kizuki2.webp);
+        color:red;
+        /* text-shadow: 1px  red; */
+    }
+    60%{
+        background-image: url(kizuki3.jpg);
+        color:grey;
+        /* text-shadow:1px grey */
+    }
+}
+.eren{
+    background-image: url("aot1.jpg");
+    background-size: cover;
+    animation-name: aot;
+    height: 900px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-attachment: fixed;
+}
+@keyframes aot{
+    30%{
+        background-image: url("aot2.jpg");
+        color:red;
+        /* text-shadow: 1px red; */
+    }
+    60%{
+        background-image: url("aot3.jpg");
+        color:grey;
+        /* text-shadow:1px  grey */
+    }
+}
